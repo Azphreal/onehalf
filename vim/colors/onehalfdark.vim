@@ -112,7 +112,7 @@ call s:h("FoldColumn", s:fg, "", "")
 call s:h("SignColumn", s:fg, "", "")
 
 call s:h("MatchParen", s:blue, "", "underline")
-call s:h("SpecialKey", s:fg, "", "")
+call s:h("SpecialKey", s:comment_fg, "", "")
 call s:h("Title", s:green, "", "")
 call s:h("WildMenu", s:fg, "", "")
 " }
@@ -155,12 +155,16 @@ call s:h("Tag", s:fg, "", "")
 call s:h("Delimiter", s:fg, "", "")
 call s:h("SpecialComment", s:fg, "", "")
 call s:h("Debug", s:fg, "", "")
-call s:h("Underlined", s:fg, "", "")
+call s:h("Underlined", s:blue, "", "underline")
 call s:h("Ignore", s:fg, "", "")
 call s:h("Error", s:red, s:gutter_bg, "")
 call s:h("Todo", s:purple, "", "")
 " }
 
+" Languages {
+" Octave
+call s:h("octaveOperator", s:fg, "", "")
+" }
 
 " Plugins {
 " GitGutter
