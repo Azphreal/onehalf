@@ -175,6 +175,9 @@ call s:h("GitGutterChangeDelete", s:red, s:gutter_bg, "")
 " Fugitive
 call s:h("diffAdded", s:green, "", "")
 call s:h("diffRemoved", s:red, "", "")
+" vim-index-guide
+call s:h("IndentGuidesOdd",  s:gutter_bg, s:gutter_bg, "")
+call s:h("IndentGuidesEven", s:gutter_fg, s:gutter_fg, "")
 " }
 
 
